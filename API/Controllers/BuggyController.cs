@@ -18,7 +18,7 @@ public class BuggyController : BaseApiController
     }
 
     [HttpGet("server-error")]
-    public IActionResult GetServerErrir()
+    public IActionResult GetServerError()
     {
         throw new Exception("This is a server error");
     }
