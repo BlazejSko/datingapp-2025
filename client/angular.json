@@ -10,10 +10,12 @@
           "skipTests": true
         },
         "@schematics/angular:service": {
-          "skipTests": true
+          "skipTests": true,
+          "path": "src/core/services"
         },
         "@schematics/angular:guard": {
-          "skipTests": true
+          "skipTests": true,
+          "path": "src/core/guards"
         },
         "@schematics/angular:interceptor": {
           "skipTests": true,
